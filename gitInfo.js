@@ -10,7 +10,7 @@
 */
 
 //CODE HERE
-
+const gitDefinition = "This is defined as a version control software that helps developers to collaborate on one or more projects"
 //////////////////PROBLEM 2////////////////////
 /*
     Create a variable called 'gitHubDefinition'.  
@@ -18,7 +18,7 @@
 */
 
 //CODE HERE
-
+const gitHubDefinition = "This is a remote repository website that allows developers manage git repositories "
 //////////////////PROBLEM 3////////////////////
 /*
     Create a variable called 'gitInitDefinition'.  
@@ -26,7 +26,7 @@
 */
 
 //CODE HERE
-
+const gitInitDefinition = "this is a command that initializes a local repository into a git repository"
 //////////////////PROBLEM 4////////////////////
 /*
     Create a variable called 'gitCloneDefinition'.  
@@ -34,7 +34,7 @@
 */
 
 //CODE HERE
-
+const gitCloneDefinition = "this is a command that is used to create a copy of a remote repository into a users local repository"
 //////////////////PROBLEM 5////////////////////
 /*
     Create a variable called 'gitStatusDefinition'.  
@@ -42,7 +42,7 @@
 */
 
 //CODE HERE
-
+const gitStatusDefinition = "This is command that is used to checked the state of files in a local git repository"
 //////////////////PROBLEM 6////////////////////
 /*
     Create a variable called 'gitAddDefinition'.  
@@ -52,7 +52,9 @@
     It should be a string containing the code to add all files.
 */
 
-//CODE HERE
+const gitAddDefinition = "This is a command that is used to stage files in your local repo that one would like to commit"
+
+let gitAddCode = "git add ."
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -64,7 +66,8 @@
 */
 
 //CODE HERE
-
+const gitCommitDefinition = "This is a command that creates snapshots of a projects state, it also describes the changes being made."
+let gitCommitCode = "git commit -m initial commit" // there's usually a double quotes around initial commit but for some reason i cannot add it
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -73,3 +76,4 @@
 */
 
 //CODE HERE
+const gitPushDefinition = "this is the command that is used to update changes made from the local repositiory to the remote repository. it is used everytime changes are made to a file."
