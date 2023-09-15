@@ -40,10 +40,11 @@ const bigOrSmallArray = [1, 99, 42, 69, 102, -10, 159, 352]
 let answers = []
 
 for (let i = 0; i <= bigOrSmallArray.length; i = i + 1) {
-  if (bigOrSmallArray > 100) {
-    console.log(answers.push['big'])
-  } else if (bigOrSmallArray <= 100) {
-    console.log(answers.push['small'])
+  let answers = bigOrSmallArray[i]
+  if (answers > 100) {
+    console.log('big number')
+  } else if (answers <= 100) {
+    console.log('small number')
   } else {
     console.log('invalid number')
   }

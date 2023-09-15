@@ -50,9 +50,35 @@ const pinkPrice = .55
 */
 
 // CODE HERE
+let fujisum = 0
 
+for (let i = 0; i < fujiAcres.length; i = i + 1) {
+    fujisum += fujiAcres[i]
+    console.log(fujisum);
+}
+// okay so apparently i've been able to come up with a code that would add each of the acres together successively
+// the total for fijiAcres should be around 15 acres picked in a week
 
+let galasum = 0
 
+for (let i = 0; i < galaAcres.length; i = i + 1) {
+    galasum += galaAcres[i]
+    console.log(galasum);
+}
+// the total for galaAcres = 26 acres picked in a week
+
+let pinksum = 0
+
+for (let i = 0; i <pinkAcres.length; i = i + 1) {
+    pinksum += pinkAcres[i]
+    console.log(pinksum);
+}
+// total for pink sum = 22 acres picked in a week
+
+let totalAcres = fujisum + galasum + pinksum
+console.log(totalAcres)
+
+//total number of all acres = 63 acres were picked in total
 
 
 // PROBLEM 2
@@ -69,7 +95,8 @@ const pinkPrice = .55
 
 // CODE HERE
 
-
+let averageDailyAcres = totalAcres / 7 // about 9 acres are collected daily
+console.log(averageDailyAcres);
 
 
 
