@@ -133,6 +133,11 @@ let acresLeft = 174
 let days = 0
 
 // CODE HERE
+while (acresLeft > 7) { // i'm not entirely sure what this code is asking me to do becuase when i tried logging days it just kept adding numbers to infinity
+    days = days + 1
+   // console.log(days)
+}
+
 
 
 
