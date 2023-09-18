@@ -46,6 +46,6 @@ for (let i = 0; i <= bigOrSmallArray.length; i = i + 1) {
   } else if (answers <= 100) {
     console.log('small number')
   } else {
-    console.log('invalid number')
+    console.log(i)
   }
 }
