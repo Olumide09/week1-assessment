@@ -167,9 +167,9 @@ while (acresLeft > 7) { // i'm not entirely sure what this code is asking me to 
 
 // CODE HERE
 
-// let fujiTons =
-// let galaTons =
-// let pinkTons =
+ let fujiTons = 6.5;
+ let galaTons = 6.5;
+ let pinkTons = 6.5;
 
 
 
